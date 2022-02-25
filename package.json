@@ -4,13 +4,12 @@
   "description": "A demo of react components written in typescript",
   "author": "Tim Docker",
   "license": "MIT",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "module": "dist/index.js",
   "files": [
     "**"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf dist; tsc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
