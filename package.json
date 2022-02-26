@@ -1,6 +1,6 @@
 {
   "name": "@timbod7/ts-component-demo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A demo of react components written in typescript",
   "author": "Tim Docker",
   "license": "MIT",
