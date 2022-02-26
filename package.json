@@ -1,15 +1,15 @@
 {
   "name": "@timbod7/ts-component-demo",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A demo of react components written in typescript",
   "author": "Tim Docker",
   "license": "MIT",
-  "module": "index.js",
+  "module": "dist/index.js",
   "files": [
     "**"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf dist; tsc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
